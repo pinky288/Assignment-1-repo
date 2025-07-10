@@ -10,11 +10,21 @@
 .text-primary{
     color: #4e47ff;
 }
+
+.btn-primary{
+    background-color: #4e47ff;
+    font-weight:bold;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 12px 36px;
+    border-radius: 5px;
+}
 /* nav styles */
 nav{
     display: flex;
     align-items: center;
     justify-content:space-between;
+    margin: 0px 200px;
 }
 .nav-title{
     font-weight: 800;
