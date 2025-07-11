@@ -16,9 +16,12 @@
     font-weight:bold;
     color: #ffffff;
     font-size: 15px;
-    padding: 12px 36px;
-    border-radius: 5px;
+    border: none;
+    padding: 11px 36px;
+    border-radius: 4px;
 }
+
+
 /* nav styles */
 nav{
     display: flex;
@@ -34,4 +37,19 @@ nav{
 
 nav ul li{
     list-style: none;
+}
+
+/* banner styles */
+.banner-title{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 65px;
+    text-align: center;
+    font: color #252432;}
+.btn-primary{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
 }
