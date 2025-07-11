@@ -21,6 +21,13 @@
     border-radius: 4px;
 }
 
+/* header */
+.header{
+    background-image: url('../Hero-bg.png');
+    
+
+    
+}
 
 /* nav styles */
 nav{
@@ -40,14 +47,20 @@ nav ul li{
 }
 
 /* banner styles */
+.banner{
+margin: 0px 35px 230px;
+
+}
 .banner-title{
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: 65px;
     text-align: center;
-    font: color #252432;}
-.btn-primary{
-    display: flex;
+    font: color #252432;
+    
+}
+.banner-content{
+    
     text-align: center;
     justify-content: center;
     align-items: center;
