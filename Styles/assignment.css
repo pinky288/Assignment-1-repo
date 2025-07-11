@@ -19,6 +19,36 @@
     border: none;
     padding: 11px 36px;
     border-radius: 4px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* section styles */
+.section{
+    
+    justify-content: space-between;
+    margin: 0 150px 0 150px;
+    display: flex;
+}
+.section-content{
+    max-width: 570px;
+    
+    
+}
+.section-title{
+    font-weight: bold;
+    font-size: 42px;
+    color:#252432;
+}
+.section-picture{
+    max-width: 517px;
+    max-height: 328px;
+    border-radius: 48px;
+    
+}
+.section-description{
+    font-size: 24px;
+    color: #2F2E3F;
 }
 
 /* header */
@@ -34,7 +64,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content:space-between;
-    margin: 0px 200px;
+    margin: 0px 150px;
 }
 .nav-title{
     font-weight: 800;
@@ -48,7 +78,8 @@ nav ul li{
 
 /* banner styles */
 .banner{
-margin: 0px 35px 230px;
+margin: 0px 150px 230px;
+margin-bottom: 80px;
 
 }
 .banner-title{
